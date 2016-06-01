@@ -1,0 +1,7 @@
+<div ng-controller="signupDirCtrl as ctrl">
+    <p>Please choose a username and password</p>
+    <input type="text" placeholder="Enter your username" ng-model="ctrl.username"/><br>
+    <input type="password" placeholder="Enter your password" ng-model="ctrl.password"/><br>
+    <button type="button" class="btn btn-info" ng-click="ctrl.signup()">Sign up</button>
+    <p>{{ctrl.msg.msg}}</p>
+</div>

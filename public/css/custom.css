@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar-inverse {
+    border-radius: 0px;
+    background-color: #0f0f0f;
+}
+
+.frontpageContent {
+    margin-top: -70px;
+    padding-top: 320px;
+    height: 810px;
+    width: 100%;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
